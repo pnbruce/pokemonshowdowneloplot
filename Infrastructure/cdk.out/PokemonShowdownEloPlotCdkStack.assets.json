@@ -1,0 +1,19 @@
+{
+  "version": "38.0.1",
+  "files": {
+    "6954edc83a0e8a621da2befc6ca77ba0c794557250682579dae8e0a0aea4ef5d": {
+      "source": {
+        "path": "PokemonShowdownEloPlotCdkStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "6954edc83a0e8a621da2befc6ca77ba0c794557250682579dae8e0a0aea4ef5d.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
